@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{block 'title'}}默认标题{{/block}}</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  {{block 'head'}}{{/block}}
+</head>
+
+<body>
+  <!--引入(包含)header部分-->
+  {{include '../_partials/header.html'}}
+  <!--自定义...  -->
+  {{block 'body'}}{{/block}}
+  <!--引入footer部分-->
+  {{include '../_partials/footer.html'}}
+
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <!--自定义js部分  -->
+  {{block 'script'}}{{/block}}
+</body>
+
+</html>
+
+<!--整体布局-->

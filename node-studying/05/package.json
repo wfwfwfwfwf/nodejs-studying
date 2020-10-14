@@ -1,0 +1,18 @@
+{
+  "name": "05",
+  "version": "1.0.0",
+  "description": "+ 模块作用域\r   + 在 Node 这个环境中对 JavaScript 进行了特殊的模块化支持 CommonJS\r   + JavaScript 天生不支持模块化\r     * require\r     * exports\r     * Node.js 才有的\r   + 在浏览器中也可以像在 Node 中的模块一样来进行编程\r     * `<script>` 标签来引用加载，而且你还必须考虑加载的顺序问题\r     * require.js 第三方库 AMD\r     * sea.js     第三方库 CMD\r   + 无论是 CommonJS、AMD、CMD、UMD、EcmaScript 6 Modules 官方规范\r     * 都是为了解决 JavaScript 的模块化问题\r     * CommonJS、AMD、CMD 都是民间搞出来的\r     * EcmaScript 是官方规范定义\r     * 所以 EcmaScript 在 2015 年发布了 EcmaScript 2016 官方标准\r     * 其中就包含了官方对 JavaScript 模块化的支持\r     * 也就是说语言天生就支持了\r     * 但是虽然标准已经发布了，但是很多 JavaScript 运行换将还不支持\r     * Node 也是只在 8.5 版本之后才对 EcmaScript 6 module 进行了支持",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "http-server": "^0.12.3",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.10.9"
+  }
+}
