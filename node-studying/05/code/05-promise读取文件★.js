@@ -60,3 +60,7 @@ p1
   }, function (err) {
     console.log('读取文件失败了', err)
   ;});
+/*
+Promise.all([p1,p2,p3]).then((value)=>{
+  console.log(value)
+})*/
